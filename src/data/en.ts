@@ -40,6 +40,18 @@ export const en: Resume = {
     workExperience: {
         label: 'Work experience', value: [
             {
+                position: ['Frontend developer', 'TecForce'],
+                city: 'Samara, remote',
+                dateFrom: 'Aug 2021',
+                dateUntil: 'now',
+                details: [
+                    ['React, Redux, Sass, Redux Forms, React JSON Schema Form, Webpack'],
+                    ['Projects:', 'bold'],
+                    ['Web-client Apache Zeppelin customization (AngularJS version)', 'li'],
+                    ['Document management system with complex interface', 'li']
+                ]
+            },
+            {
                 position: ['Frontend developer', 'Fit Service'],
                 city: 'Novosibirsk',
                 dateFrom: 'Dec 2020',
