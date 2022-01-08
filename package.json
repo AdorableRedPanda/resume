@@ -6,8 +6,9 @@
   "repository": "https://github.com/AdorableRedPanda/resume_jsx",
   "homepage": "https://adorableredpanda.github.io/resume_jsx/",
   "scripts": {
-    "build:prod": "webpack -c webpack/prod.js",
-    "start": "webpack serve -c webpack/dev.js"
+    "build": "webpack -c webpack/prod.js",
+    "start": "webpack serve -c webpack/dev.js",
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "author": "Konstantin Gotin<gktin@yandex.ru>",
   "license": "ISC",
@@ -18,6 +19,7 @@
     "eslint": "8.6.0",
     "eslint-loader": "4.0.2",
     "eslint-plugin-import": "2.25.4",
+    "gh-pages": "3.2.3",
     "typescript": "4.5.4",
     "webpack-dev-server": "4.7.2"
   },
