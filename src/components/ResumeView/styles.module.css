@@ -1,0 +1,20 @@
+.layout {
+    height: 100%;
+    width: 100%;
+    max-width: 900px;
+    min-height: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 5px #6975893b;
+    flex-direction: column;
+    padding-top: 40px;
+    display: flex;
+    background: linear-gradient(to right, #e4e4e4 30%, whitesmoke 30%);
+}
+
+@media print {
+    .layout {
+        padding-top: 5px;
+        box-shadow: none;
+    }
+}

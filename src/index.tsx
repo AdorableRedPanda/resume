@@ -1,5 +1,5 @@
 import { render } from './Render';
-import { App } from './components/App';
+import { App } from './App';
 
 /** @jsx createElement */
 import { createElement } from './JSX';

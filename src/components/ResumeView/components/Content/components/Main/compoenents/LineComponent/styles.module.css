@@ -1,0 +1,14 @@
+.simple {
+    margin: 4px 0;
+}
+
+.list_item {
+    margin: 0 0 4px 10px;
+    display: list-item;
+    list-style-position: inside;
+}
+
+.bold {
+    margin: 5px 0;
+    font-weight: bold;
+}

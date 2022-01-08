@@ -1,0 +1,28 @@
+.experience {
+    margin-top: 20px;
+}
+
+.city {
+    font-size: small;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: medium;
+    font-weight: bold;
+    margin: 0;
+}
+
+.dates {
+    font-size: smaller;
+}
+
+.details {
+    margin: 10px 0;
+    font-size: smaller;
+}

@@ -1,0 +1,33 @@
+.section {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.header {
+    text-transform: uppercase;
+    width: 100%;
+    border-bottom: 2px solid #575757;
+    padding-bottom: 3px;
+}
+
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.item {
+    margin: 8px 0;
+}
+
+.social_link {
+    color: black;
+}
+
+.contact_label {
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.contact_item {
+    font-size: small;
+}
