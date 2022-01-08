@@ -29,7 +29,7 @@ export const en: Resume = {
         about: {
             label: 'About me',
             value: [
-                ['Until 2019 I have been doing math professionally and studying C# as hobby.'],
+                ['Until 2019, I was a math professional and studied C # as a hobby.'],
                 ['I have programming as profession now, and hiking and snowboarding are still as hobbies.']
             ]
         },
