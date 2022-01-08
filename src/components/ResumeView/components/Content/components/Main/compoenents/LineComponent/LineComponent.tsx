@@ -7,9 +7,17 @@ interface LineProps {
     line: StyledLine;
 }
 
+type SpecSubstring = [string, string];
+
+const replacements: SpecSubstring[] = [
+    ['--', '\u2013']
+];
+
+const processSpecSymbols = (rawLine: string) => replacements.reduce((prev, [target, value]) => prev.replace(target, value), rawLine);
+
 export const LineComponent: FC<LineProps> = ({ line }) => {
     const [value, style = 'none'] = line;
-    const processed = value.replace(' - ', ' \u2013 ');
+    const processed = processSpecSymbols(value);
     switch (style) {
         case 'bold':
             return <p className={styles.bold}>{processed}</p>;
