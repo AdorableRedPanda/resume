@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "Simple static resume",
   "main": "index.js",
+  "repository": "https://github.com/AdorableRedPanda/resume_jsx",
+  "homepage": "https://adorableredpanda.github.io/resume_jsx/",
   "scripts": {
-    "build": "webpack -c webpack/common.js --mode=production",
     "build:prod": "webpack -c webpack/prod.js",
-    "start": "webpack serve -c webpack/dev.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve -c webpack/dev.js"
   },
-  "author": "Konstantin Gotin",
+  "author": "Konstantin Gotin<gktin@yandex.ru>",
   "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.9.0",
