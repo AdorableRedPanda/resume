@@ -20,14 +20,32 @@
 }
 
 .social_link {
+    display: block;
     color: black;
 }
 
+.link_print_version {
+    display: none;
+}
+
+@media print {
+    .link_print_version {
+        display: block;
+    }
+}
+
 .contact_label {
+    font-size: small;
     font-weight: bolder;
     text-transform: uppercase;
 }
 
-.contact_item {
-    font-size: small;
+
+.language_level {
+    font-style: italic;
+    line-height: 9px;
+}
+
+.skill_item {
+    margin: 6px
 }

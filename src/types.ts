@@ -3,10 +3,17 @@ export interface Labeled<T> {
     value: T;
 }
 
+export interface Profile {
+    position: string;
+    firstName: string;
+    lastName: string;
+    about: Labeled<StyledLine[]>;
+}
+
 export interface Resume {
     profile: Profile;
-    workExperiences: Labeled<WorkExperience[]>;
-    educations: Labeled<Education[]>;
+    workExperience: Experience;
+    education: Experience;
     footerCaption: string;
     sideInfo: SideInfo;
 }
@@ -18,37 +25,20 @@ export interface SideInfo {
     contacts: SideInfoList;
 }
 
+export interface ExperienceItem {
+    position: ExperiencePositionInfo;
+    city: string;
+    dateFrom: string;
+    dateUntil: string;
+    details: StyledLine[];
+}
+type ExperiencePositionInfo = [string, string]
+
+export type Experience = Labeled<ExperienceItem[]>;
+
 export type SideInfoList = Labeled<ListItem[]>;
 
 export type ListItem = [string, string?]
-
-interface TimePeriod {
-    dateFrom: string;
-    dateUntil: string;
-}
-
-interface CityInfo {
-    city: string;
-}
-
-export interface Education extends TimePeriod, CityInfo {
-    school: string;
-    degree: string;
-    details: StyledLine[];
-}
-
-export interface Profile {
-    position: string;
-    firstName: string;
-    lastName: string;
-    about: Labeled<StyledLine[]>;
-}
-
-export interface WorkExperience extends TimePeriod, CityInfo {
-    position: string;
-    employer: string;
-    details: StyledLine[];
-}
 
 export type StyledLine = [string, LineStyle?];
 

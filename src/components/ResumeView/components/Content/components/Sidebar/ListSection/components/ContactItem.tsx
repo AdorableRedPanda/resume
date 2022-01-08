@@ -6,7 +6,7 @@ import styles from '../styles.module.css';
 export const ContactItem: FC<ItemComponentProps> = ({ item }) => {
     const [label, value] = item;
     return (
-        <li className={`${styles.item} ${styles.contact_item}`}>
+        <li className={`${styles.item}`}>
             <div className={styles.contact_label}>{label}</div>
             <div>{value}</div>
         </li>

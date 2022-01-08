@@ -9,7 +9,7 @@ export const LanguageItem: FC<ItemComponentProps> = ({ item }) => {
     return (
         <li className={styles.item}>
             <div>{label}</div>
-            <div>{value}</div>
+            <span className={styles.language_level}>{value}</span>
         </li>
     );
 };

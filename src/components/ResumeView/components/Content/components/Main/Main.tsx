@@ -1,19 +1,20 @@
 import { createElement, FC } from '../../../../../../JSX';
 import styles from '../styles.module.css';
-import { Education, Labeled, Profile, WorkExperience } from '../../../../../../types';
+import { Experience, Profile } from '../../../../../../types';
 import { About } from './compoenents/About';
-import { Educations } from './compoenents/Educations';
+import { ExperienceList } from './compoenents/ExperienceList';
 /** @jsx createElement */
 
 interface Props {
     profile: Profile;
-    workExperiences: Labeled<WorkExperience[]>;
-    educations: Labeled<Education[]>;
+    work: Experience;
+    education: Experience;
 }
 
-export const Main: FC<Props> = ({ profile, educations }) => (
+export const Main: FC<Props> = ({ profile, education, work }) => (
     <div className={styles.sub_layout}>
         <About about={profile.about} />
-        <Educations educations={educations}/>
+        <ExperienceList experience={work} />
+        <ExperienceList experience={education}/>
     </div>
 );

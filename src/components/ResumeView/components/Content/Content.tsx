@@ -10,16 +10,16 @@ interface Props {
     resume: Resume;
 }
 
-export const Content: FC<Props> = ({ resume: { sideInfo, educations, profile, workExperiences } }) => (
+export const Content: FC<Props> = ({ resume: { sideInfo, education, profile, workExperience } }) => (
     <div className={styles.content}>
         <div className={styles.sidebar}>
             <Sidebar sections={sideInfo}/>
         </div>
         <div className={styles.main}>
             <Main
-                educations={educations}
+                education={education}
                 profile={profile}
-                workExperiences={workExperiences}
+                work={workExperience}
             />
         </div>
     </div>
