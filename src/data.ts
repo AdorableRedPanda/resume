@@ -153,7 +153,6 @@ export const ru: Resume = {
                 ['Git'],
                 ['HTML & CSS'],
                 ['TypeScript'],
-                ['TypeScript'],
                 ['JavaScript'],
                 ['Webpack'],
                 ['StyledComponents']
