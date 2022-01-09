@@ -21,7 +21,7 @@
 
 .social_link {
     display: block;
-    color: black;
+    color: var(--primary-color);
     width: fit-content;
 }
 

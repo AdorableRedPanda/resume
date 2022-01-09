@@ -1,6 +1,6 @@
 .header {
-    background: whitesmoke;
-    color: #575757;
+    background: var(--main-bg-color);
+    color: var(--header-color);
     padding: 15px 60px;
     text-align: center;
     width: 100%;

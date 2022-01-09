@@ -8,7 +8,7 @@
     flex-direction: column;
     padding-top: 40px;
     display: flex;
-    background: linear-gradient(to right, #eeedf1 30%, whitesmoke 30%);
+    background: linear-gradient(to right, var(--side-bg-color) 30%, var(--main-bg-color) 30%);
 }
 
 @media print {
