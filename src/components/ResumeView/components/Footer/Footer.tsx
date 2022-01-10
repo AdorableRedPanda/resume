@@ -2,7 +2,7 @@
 import { createElement, FC } from '../../../../JSX';
 import styles from './styles.module.css';
 
-const SOURCE_URL = 'https://github.com/AdorableRedPanda/resume_jsx';
+const SOURCE_URL = 'github.com/AdorableRedPanda/resume';
 
 interface Props {
     caption: string;
