@@ -48,7 +48,7 @@ export const ru: Resume = {
                     ['React, Redux, Sass, Redux Forms, React JSON Schema Form, Webpack'],
                     ['Проекты:', 'bold'],
                     ['Кастомизация и доработка веб-клиента Apache Zeppelin (версия AngularJS)', 'li'],
-                    ['Система документаоборота со сложным интерфейсом', 'li']
+                    ['Система документооборота со сложным интерфейсом', 'li']
                 ]
             },
             {
@@ -65,7 +65,7 @@ export const ru: Resume = {
                          а также как отдельное приложение -- для интеграции в партнерские приложения с использованием IFrame.`, 'li'
                     ],
                     [
-                        `Адаптер для модуля записи -- специальный скрипт для интегрировать модуль с
+                        `Адаптер модуля записи -- специальный скрипт для интегрирации модуля с
                         минимальными усилиями со стороны партнера. Позволяет получать и хранить сообщения от 
                         родительского приложения еще до момента загрузки Iframe. Написан только с использованием 
                         TypeScript, Webpack и Dom Api.`, 'li'
@@ -93,12 +93,12 @@ export const ru: Resume = {
                     [
                         `WMS, гибкая система, позволяющая отслеживать и 
                         контролировать полный жизненный цикл товаров на складе.
-                        Стэк: TypeScript, React, StyledComponents, Go, MongoDB.`, 'li'
+                        Стек: TypeScript, React, StyledComponents, Go, MongoDB.`, 'li'
                     ],
 
                     [
                         `Система анализа данных -- свой аналог Apache Zeppelin. 
-                        Стэк: TypeScript, React, CSS Modules, Less, NodeJS, Express, MongoDB.`, 'li'
+                        Стек: TypeScript, React, CSS Modules, Less, NodeJS, Express, MongoDB.`, 'li'
                     ],
 
                     [
@@ -160,12 +160,12 @@ export const ru: Resume = {
             label: 'Навыки',
             value: [
                 ['React'],
-                ['Git'],
                 ['HTML & CSS'],
                 ['TypeScript'],
                 ['JavaScript'],
                 ['Webpack'],
-                ['StyledComponents']
+                ['StyledComponents'],
+                ['Git']
             ]
         }
     }
