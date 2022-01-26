@@ -14,7 +14,7 @@ interface Props {
 export const Main: FC<Props> = ({ profile, education, work }) => (
     <div className={styles.sub_layout}>
         <About about={profile.about} />
-        <ExperienceList experience={work} />
         <ExperienceList experience={education}/>
+        <ExperienceList experience={work} />
     </div>
 );

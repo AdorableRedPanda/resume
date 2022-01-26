@@ -29,7 +29,7 @@ export const en: Resume = {
         about: {
             label: 'About me',
             value: [
-                ['Until 2019, I was a math professional and studied C # as a hobby.'],
+                ['Until 2019, I was a math professional and studied C# as a hobby.'],
                 ['I have programming as profession now, and hiking and snowboarding are still as hobbies.']
             ]
         },
@@ -45,9 +45,9 @@ export const en: Resume = {
                 dateFrom: 'Aug 2021',
                 dateUntil: 'now',
                 details: [
-                    ['React, Redux, Sass, Redux Forms, React JSON Schema Form, Webpack'],
+                    ['React, Redux, Sass, Redux-Saga, Redux Forms, React JSON Schema Form, Webpack'],
                     ['Projects:', 'bold'],
-                    ['Web-client Apache Zeppelin customization (AngularJS version)', 'li'],
+                    ['Apache Zeppelin web-client customization (AngularJS version)', 'li'],
                     ['Document management system with complex interface', 'li']
                 ]
             },
@@ -59,14 +59,14 @@ export const en: Resume = {
                 details: [
                     ['Tech stack: TypeScript, React, Styled Components, GraphQL, ApolloClient, MemoryRouter, ReactRouter, Formik, Webpack.'],
                     ['Projects:', 'bold'],
-                    ['CRM to simplify the use of service center services for partners.', 'li'],
+                    ['CRM to simplify the use of our services for partners.', 'li'],
                     [
-                        `Service booking application, the module can be used as the React component in other projects or
-                        can be deployed independently to use in partners resources using IFrame.`, 'li'
+                        `Service booking application, module that can be built as a React component in other projects, 
+                        or can be deployed independently for use in partner projects as an IFrame.`, 'li'
                     ],
                     [
-                        `Booking application adapter -- the script to integrate the application with minimal effort of partners.
-                        It is developed without frameworks, using only TypeScript, Webpack, Dom and Window api.`, 'li'
+                        `Booking application adapter -- script for integrating the application with minimal partners' efforts.
+                        Implemented only by TypeScript, Webpack, Dom and Window api.`, 'li'
                     ]
                 ]
             },
@@ -83,6 +83,7 @@ export const en: Resume = {
                 dateFrom: 'Jun 2019',
                 dateUntil: 'Sep  2020',
                 details: [
+                    ['A full cycle of feature development - clarification of requirements, implementation of both the client side and the server side.'],
                     ['Projects:', 'bold'],
                     [
                         `WMS, flexible system that allows to track and control the complete life cycle of goods in warehouse.
@@ -94,7 +95,7 @@ export const en: Resume = {
                     ],
                     [
                         `Construction company project management system.
-                         Tech stack: TypeScript, React, Redux, Redux Saga, MaterialUI, JSS, Formik.`, 'li'
+                         Tech stack: TypeScript, React, Redux, Redux-Saga, MaterialUI, JSS, Formik.`, 'li'
                     ]
                 ]
 
@@ -151,10 +152,9 @@ export const en: Resume = {
             label: 'Skills',
             value: [
                 ['React'],
-                ['Git'],
-                ['HTML & CSS'],
                 ['TypeScript'],
                 ['JavaScript'],
+                ['HTML & CSS'],
                 ['Webpack'],
                 ['StyledComponents']
             ]

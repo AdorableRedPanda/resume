@@ -88,6 +88,7 @@ export const ru: Resume = {
                 dateFrom: 'Июнь 2019',
                 dateUntil: 'Сентябрь 2020',
                 details: [
+                    ['Полный цикл разработки фич -- выяснение требований, реализация как клиентской части, так и серверной.'],
                     ['Проекты:', 'bold'],
 
                     [
@@ -160,12 +161,11 @@ export const ru: Resume = {
             label: 'Навыки',
             value: [
                 ['React'],
-                ['HTML & CSS'],
                 ['TypeScript'],
                 ['JavaScript'],
                 ['Webpack'],
-                ['StyledComponents'],
-                ['Git']
+                ['HTML & CSS'],
+                ['StyledComponents']
             ]
         }
     }
