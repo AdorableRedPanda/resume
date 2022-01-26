@@ -29,8 +29,8 @@ export const en: Resume = {
         about: {
             label: 'About me',
             value: [
-                ['Until 2019, I was a math professional and studied C# as a hobby.'],
-                ['I have programming as profession now, and hiking and snowboarding are still as hobbies.']
+                ['Hi, I\'m a front-end developer from Novosibirsk, Russia, with strong background in mathematics and teaching experience'],
+                ['In my free time, I go hiking and snowboarding.']
             ]
         },
         position: 'Frontend developer',
