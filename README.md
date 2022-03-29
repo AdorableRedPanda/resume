@@ -2,4 +2,4 @@
 Simple page, renders resume from variables.
 Developed using css modules as stylization, JSX and TS for decomposition.
 
-Demo:  [ru](https://adorableredpanda.github.io/resume/ru), [en](https://adorableredpanda.github.io/resume).
+Demo is available [here](https://adorableredpanda.github.io/resume).

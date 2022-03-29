@@ -6,7 +6,6 @@
   "repository": "https://github.com/AdorableRedPanda/resume_jsx",
   "homepage": "https://adorableredpanda.github.io/resume_jsx/",
   "scripts": {
-    "build": "webpack -c webpack/prod.js",
     "build:deploy": "webpack -c webpack/deploy.js",
     "start": "webpack serve -c webpack/dev.js",
     "deploy": "npm run build:deploy && gh-pages -d deploy"

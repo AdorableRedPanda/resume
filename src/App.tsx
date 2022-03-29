@@ -2,9 +2,6 @@
 import { createElement, FC } from './JSX';
 
 import { ResumeView } from './components';
-import { en, ru } from './data';
+import { en as resume } from './data';
 
-export const App: FC = () => {
-    const resume = window.location.pathname.includes('ru') ? ru : en;
-    return <ResumeView resume={resume} />;
-};
+export const App: FC = () => <ResumeView resume={resume} />;

@@ -29,7 +29,8 @@ export const en: Resume = {
         about: {
             label: 'About me',
             value: [
-                ['Hi, I\'m a front-end developer from Novosibirsk, Russia, with strong background in mathematics and teaching experience'],
+                ['Hi, I\'m a front-end developer with strong background in mathematics and teaching experience.'],
+                ['I also have some experience (almost 1.5 year) of full-stack development'],
                 ['In my free time, I go hiking and snowboarding.']
             ]
         },
@@ -57,7 +58,7 @@ export const en: Resume = {
                 dateFrom: 'Dec 2020',
                 dateUntil: 'Jun 2021',
                 details: [
-                    ['Tech stack: TypeScript, React, Styled Components, GraphQL, ApolloClient, MemoryRouter, ReactRouter, Formik, Webpack.'],
+                    ['Stack: TypeScript, React, Styled Components, GraphQL, ApolloClient, MemoryRouter, ReactRouter, Formik, Webpack.'],
                     ['Projects:', 'bold'],
                     ['CRM to simplify the use of our services for partners.', 'li'],
                     [
@@ -83,19 +84,19 @@ export const en: Resume = {
                 dateFrom: 'Jun 2019',
                 dateUntil: 'Sep  2020',
                 details: [
-                    ['A full cycle of feature development - clarification of requirements, implementation of both the client side and the server side.'],
+                    ['A full cycle of feature development - clarification of requirements, implementation of both the client and the server sides.'],
                     ['Projects:', 'bold'],
                     [
                         `WMS, flexible system that allows to track and control the complete life cycle of goods in warehouse.
-                        Tech stack: TypeScript, React, StyledComponents, Go, MongoDB.`, 'li'
+                        Stack: TypeScript, React, StyledComponents, Go, MongoDB.`, 'li'
                     ],
                     [
                         `Data analysis system -- custom and flexible Apache Zeppelin analog. 
-                        Tech stack: TypeScript, React, CSS Modules, Less, NodeJS, Express, MongoDB.`, 'li'
+                        Stack: TypeScript, React, CSS Modules, Less, NodeJS, Express, MongoDB.`, 'li'
                     ],
                     [
                         `Construction company project management system.
-                         Tech stack: TypeScript, React, Redux, Redux-Saga, MaterialUI, JSS, Formik.`, 'li'
+                         Stack: TypeScript, React, Redux, Redux-Saga, MaterialUI, JSS, Formik.`, 'li'
                     ]
                 ]
 
