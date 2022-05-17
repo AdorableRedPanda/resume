@@ -147,7 +147,7 @@ export const en: Resume = {
             value: [
                 ['Github', 'https://github.com/AdorableRedPanda'],
                 ['Linkedin', 'https://www.linkedin.com/in/kgotin/'],
-                ['NPM', 'https://www.npmjs.com/package/red-panda-utils']
+                ['NPM', 'https://www.npmjs.com/~adorableredpanda']
             ]
         },
         skills: {
