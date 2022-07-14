@@ -15,3 +15,9 @@
     color: #575757;
     margin: 0;
 }
+
+@media print {
+    .footer {
+        display: none;
+    }
+}

@@ -11,8 +11,8 @@ export const en: Resume = {
                 dateFrom: 'Sep 2010',
                 dateUntil: 'Jun 2014',
                 details: [
-                    ['Department of Mechanics and Mathematics']
-                ]
+                    ['Department of Mechanics and Mathematics'],
+                ],
             },
             {
                 position: [ 'Master', 'Novosibirsk State University'],
@@ -20,37 +20,46 @@ export const en: Resume = {
                 dateFrom: 'Sep 2014',
                 dateUntil: 'Jun 2016',
                 details: [
-                    ['Department of Mechanics and Mathematics']
-                ]
-            }
-        ]
+                    ['Department of Mechanics and Mathematics'],
+                ],
+            },
+        ],
     },
     profile: {
         about: {
             label: 'About me',
             value: [
-                ['Hi, I\'m a front-end developer with strong background in mathematics and teaching experience.'],
-                ['I also have some experience (almost 1.5 year) of full-stack development'],
-                ['In my free time, I go hiking and snowboarding.']
-            ]
+                ['strong math background', 'li'],
+                ['teaching experience', 'li'],
+                ['some full-stack experience', 'li'],
+                [
+                    `I like to develop high-level APIs and components, which in turn are used to implement business 
+                    functions, so I'm looking for a project with a complex interesting frontend and a strong team.
+                    Open to relocation.`,
+                ],
+            ],
         },
         position: 'Frontend developer',
-        firstName: 'Konstantin',
-        lastName: 'Gotin'
+        name: 'Konstantin Gotin',
     },
     workExperience: {
-        label: 'Work experience', value: [
+        label: 'Work experience',
+        value: [
             {
                 position: ['Frontend developer', 'TecForce'],
                 city: 'Samara, remote',
                 dateFrom: 'Aug 2021',
                 dateUntil: 'now',
                 details: [
-                    ['React, Redux, Sass, Redux-Saga, Redux Forms, React JSON Schema Form, Webpack, Jest, React Testing Library'],
+                    ['React, Redux, Redux-Saga, Redux Toolkit, Webpack, Jest, React Testing Library'],
                     ['Projects:', 'bold'],
                     ['Apache Zeppelin web-client customization (AngularJS version)', 'li'],
-                    ['Document management system with complex interface', 'li']
-                ]
+                    ['Document management system with complex interface', 'li'],
+                    ['Achievements:', 'bold'],
+                    ['Webpack config refactoring - reduce bundle size x5, reduce build time x2', 'li'],
+                    [`Rework store architecture - this allowed to completely remove code duplication in storage usages,
+                     increase performance in feature realizations`, 'li'],
+                ],
             },
             {
                 position: ['Frontend developer', 'Fit Service'],
@@ -63,20 +72,20 @@ export const en: Resume = {
                     ['CRM to simplify the use of our services for partners.', 'li'],
                     [
                         `Service booking application, module that can be built as a React component in other projects, 
-                        or can be deployed independently for use in partner projects as an IFrame.`, 'li'
+                        or can be deployed independently for use in partner projects as an IFrame.`, 'li',
                     ],
                     [
                         `Booking application adapter -- script for integrating the application with minimal partners' efforts.
-                        Implemented only by TypeScript, Webpack, Dom and Window api.`, 'li'
-                    ]
-                ]
+                        Implemented only by TypeScript, Webpack, Dom and Window api.`, 'li',
+                    ],
+                ],
             },
             {
                 position: ['Frontend engineer', 'True Engineering'],
                 city: 'Novosibirsk',
                 dateFrom: 'Sep  2020',
                 dateUntil: 'Nov 2020',
-                details: [['I worked on complex content management system for large retail network, Angular 8.']]
+                details: [['I worked on complex content management system for large retail network, Angular 8.']],
             },
             {
                 position: ['Fullstack developer', 'Axmor Software'],
@@ -85,20 +94,12 @@ export const en: Resume = {
                 dateUntil: 'Sep  2020',
                 details: [
                     ['A full cycle of feature development - clarification of requirements, implementation of both the client and the server sides.'],
+                    ['Stack: TypeScript, React, CSS Modules, Less, NodeJS, Express, Less, MongoDB, Go, Formik'],
                     ['Projects:', 'bold'],
-                    [
-                        `WMS, flexible system that allows to track and control the complete life cycle of goods in warehouse.
-                        Stack: TypeScript, React, StyledComponents, Go, MongoDB.`, 'li'
-                    ],
-                    [
-                        `Data analysis system -- custom and flexible Apache Zeppelin analog. 
-                        Stack: TypeScript, React, CSS Modules, Less, NodeJS, Express, MongoDB.`, 'li'
-                    ],
-                    [
-                        `Construction company project management system.
-                         Stack: TypeScript, React, Redux, Redux-Saga, MaterialUI, JSS, Formik.`, 'li'
-                    ]
-                ]
+                    [ 'WMS, flexible system with complete control the life cycle of goods in warehouse', 'li' ],
+                    [ 'Data analysis system -- custom and flexible Apache Zeppelin analog', 'li' ],
+                    ['Construction company project management system', 'li' ],
+                ],
 
             },
             {
@@ -108,8 +109,8 @@ export const en: Resume = {
                 dateUntil: 'Jun 2020',
                 details: [
                     ['Higher College of Informatics of NSU -- algebra, geometry and discrete mathematics', 'li'],
-                    ['Department of Mechanics and Mathematics of NSU -- differential geometry', 'li']
-                ]
+                    ['Department of Mechanics and Mathematics of NSU -- differential geometry', 'li'],
+                ],
             },
             {
                 position: [ 'Researcher', 'Sobolev Institute of Mathematics'],
@@ -122,10 +123,10 @@ export const en: Resume = {
                     ['participation in conferences', 'li'],
                     [
                         `I have a solo publication in Q2 math journal -- 
-                        https://www.worldscientific.com/doi/10.1142/S0218216517420020`
-                    ]
-                ]
-            }
+                        https://www.worldscientific.com/doi/10.1142/S0218216517420020`,
+                    ],
+                ],
+            },
         ] },
     sideInfo: {
         contacts: {
@@ -133,33 +134,33 @@ export const en: Resume = {
             value: [
                 ['Phone', '89137957209'],
                 ['Email', 'gktin@yandex.ru'],
-                ['Address', 'Novosibirsk, Russia']
-            ]
+                ['Address', 'Novosibirsk, Russia'],
+            ],
         },
         languages: {
             label: 'Language',
             value: [
                 ['Russian', 'native'],
-                ['English', 'intermediate']
+                ['English', 'intermediate'],
             ] },
         socialLinks: {
             label: 'Links',
             value: [
                 ['Github', 'https://github.com/AdorableRedPanda'],
                 ['Linkedin', 'https://www.linkedin.com/in/kgotin/'],
-                ['NPM', 'https://www.npmjs.com/~adorableredpanda']
-            ]
+                ['NPM', 'https://www.npmjs.com/~adorableredpanda'],
+            ],
         },
         skills: {
             label: 'Skills',
             value: [
                 ['React'],
+                ['Redux'],
                 ['TypeScript'],
                 ['JavaScript'],
                 ['HTML & CSS'],
                 ['Webpack'],
-                ['StyledComponents']
-            ]
-        }
-    }
+            ],
+        },
+    },
 };

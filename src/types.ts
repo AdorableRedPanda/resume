@@ -5,8 +5,7 @@ export interface Labeled<T> {
 
 export interface Profile {
     position: string;
-    firstName: string;
-    lastName: string;
+    name: string;
     about: Labeled<StyledLine[]>;
 }
 

@@ -1,7 +1,6 @@
 .header {
     background: var(--main-bg-color);
-    color: var(--header-color);
-    padding: 15px 60px;
+    padding: 10px 60px;
     text-align: center;
     width: 100%;
     box-sizing: border-box;
@@ -11,14 +10,14 @@
 }
 
 .name {
-    margin: 20px 0;
+    margin: 10px 0;
     text-transform: uppercase;
 }
 
 @media print {
     .header {
-        margin: auto;
         padding: 0;
+        margin: 0 auto 20px;
     }
     .name {
         margin: 5px;
