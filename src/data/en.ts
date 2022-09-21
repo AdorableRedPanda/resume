@@ -51,7 +51,7 @@ export const en: Resume = {
                 dateFrom: 'Aug 2021',
                 dateUntil: 'now',
                 details: [
-                    ['React, Redux, Redux-Saga, Redux Toolkit, Webpack, Jest, React Testing Library'],
+                    ['TS, React, Redux, Redux-Saga, Redux Toolkit, Webpack, Jest, React Testing Library'],
                     ['Projects:', 'bold'],
                     ['Apache Zeppelin web-client customization (AngularJS version)', 'li'],
                     ['Document management system with complex interface', 'li'],
