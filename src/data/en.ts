@@ -67,7 +67,7 @@ export const en: Resume = {
                 dateFrom: 'Dec 2020',
                 dateUntil: 'Jun 2021',
                 details: [
-                    ['Stack: TypeScript, React, Styled Components, GraphQL, ApolloClient, MemoryRouter, ReactRouter, Formik, Webpack.'],
+                    ['TypeScript, React, Styled Components, GraphQL, ApolloClient, MemoryRouter, ReactRouter, Formik, Webpack.'],
                     ['Projects:', 'bold'],
                     ['CRM to simplify the use of our services for partners.', 'li'],
                     [
@@ -81,20 +81,13 @@ export const en: Resume = {
                 ],
             },
             {
-                position: ['Frontend engineer', 'True Engineering'],
-                city: 'Novosibirsk',
-                dateFrom: 'Sep  2020',
-                dateUntil: 'Nov 2020',
-                details: [['I worked on complex content management system for large retail network, Angular 8.']],
-            },
-            {
                 position: ['Fullstack developer', 'Axmor Software'],
                 city: 'Novosibirsk',
                 dateFrom: 'Jun 2019',
-                dateUntil: 'Sep  2020',
+                dateUntil: 'Nov  2020',
                 details: [
                     ['A full cycle of feature development - clarification of requirements, implementation of both the client and the server sides.'],
-                    ['Stack: TypeScript, React, CSS Modules, Less, NodeJS, Express, Less, MongoDB, Go, Formik'],
+                    ['TypeScript, React, CSS Modules, Less, NodeJS, Express, Less, MongoDB, Go, Formik'],
                     ['Projects:', 'bold'],
                     [ 'WMS, flexible system with complete control the life cycle of goods in warehouse', 'li' ],
                     [ 'Data analysis system -- custom and flexible Apache Zeppelin analog', 'li' ],
@@ -132,9 +125,9 @@ export const en: Resume = {
         contacts: {
             label: 'Contacts',
             value: [
-                ['Phone', '89137957209'],
+                ['Phone', '+79137957209'],
                 ['Email', 'gktin@yandex.ru'],
-                ['Address', 'Novosibirsk, Russia'],
+                ['Address', 'Dilijan, Armenia'],
             ],
         },
         languages: {
