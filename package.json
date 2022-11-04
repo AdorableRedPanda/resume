@@ -6,33 +6,22 @@
   "repository": "https://github.com/AdorableRedPanda/resume_jsx",
   "homepage": "https://adorableredpanda.github.io/resume_jsx/",
   "scripts": {
-    "build:deploy": "webpack -c webpack/deploy.js",
-    "start": "webpack serve -c webpack/dev.js",
-    "deploy": "npm run build:deploy && gh-pages -d deploy"
+    "build:deploy": "vite build",
+    "start": "vite",
+    "deploy": "npm run build:deploy && gh-pages -d dist"
   },
   "author": "Konstantin Gotin<gktin@yandex.ru>",
   "license": "ISC",
+  "tocken": "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",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.9.0",
-    "@typescript-eslint/parser": "5.9.0",
-    "typescript-plugin-css-modules": "3.4.0",
-    "eslint": "8.6.0",
-    "eslint-loader": "4.0.2",
-    "eslint-plugin-import": "2.25.4",
-    "gh-pages": "3.2.3",
-    "typescript": "4.5.4",
-    "webpack-dev-server": "4.7.2"
+    "@typescript-eslint/eslint-plugin": "5.42.0",
+    "@typescript-eslint/parser": "5.42.0",
+    "eslint": "8.26.0",
+    "eslint-plugin-import": "2.26.0",
+    "typescript": "4.8.4",
+    "gh-pages": "4.0.0"
   },
   "dependencies": {
-    "@babel/core": "7.16.7",
-    "@babel/preset-typescript": "7.16.7",
-    "@babel/plugin-proposal-class-properties": "7.16.7",
-    "@babel/preset-react": "7.16.7",
-    "html-webpack-plugin": "5.3.2",
-    "babel-loader": "8.0.6",
-    "webpack": "5.41.1",
-    "webpack-cli": "4.7.2",
-    "style-loader": "3.3.1",
-    "css-loader": "6.5.1"
+    "vite": "3.2.2"
   }
 }
