@@ -6,9 +6,9 @@
   "repository": "https://github.com/AdorableRedPanda/resume_jsx",
   "homepage": "https://adorableredpanda.github.io/resume_jsx/",
   "scripts": {
-    "build:deploy": "vite build",
+    "build": "vite build",
     "start": "vite",
-    "deploy": "npm run build:deploy && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "author": "Konstantin Gotin<gktin@yandex.ru>",
   "license": "ISC",
