@@ -1,4 +1,4 @@
-import { createElement, FC } from '../../../../../../../../JSX';
+import { createElement, FC } from 'panda-jsx';
 import { SideInfoList } from '../../../../../../../../types';
 import { Section } from '../../../Section';
 import { ItemComponentProps } from '../types';

@@ -1,7 +1,7 @@
 import { Resume } from '../../types';
 import styles from './styles.module.css';
 /** @jsx createElement */
-import { createElement, FC } from '../../JSX';
+import { createElement, FC } from 'panda-jsx';
 import { Header, Footer, Content } from './components';
 
 interface Props {

@@ -1,4 +1,4 @@
-import { createElement, FC } from '../../../../../../../../../JSX';
+import { createElement, FC } from 'panda-jsx';
 import styles from './styles.module.css';
 import { ExperienceItem } from '../../../../../../../../../types';
 import { LineComponent } from '../../LineComponent';

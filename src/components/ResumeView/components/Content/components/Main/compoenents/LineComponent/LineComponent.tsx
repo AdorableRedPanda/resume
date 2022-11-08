@@ -1,5 +1,5 @@
 import { StyledLine } from '../../../../../../../../types';
-import { createElement, FC } from '../../../../../../../../JSX';
+import { createElement, FC } from 'panda-jsx';
 import styles from './styles.module.css';
 /** @jsx createElement */
 
@@ -10,7 +10,7 @@ interface LineProps {
 type SpecSubstring = [string, string];
 
 const replacements: SpecSubstring[] = [
-    ['--', '\u2013']
+    ['--', '\u2013'],
 ];
 
 const processSpecSymbols = (rawLine: string) => replacements.reduce((prev, [target, value]) => prev.replace(target, value), rawLine);

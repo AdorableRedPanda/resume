@@ -1,5 +1,5 @@
 import { Labeled, StyledLine } from '../../../../../../../../types';
-import { createElement, FC } from '../../../../../../../../JSX';
+import { createElement, FC } from 'panda-jsx';
 import { Section } from '../../../Section';
 import { LineComponent } from '../LineComponent';
 import styles from './styles.module.css';

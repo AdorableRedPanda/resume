@@ -1,5 +1,5 @@
 /** @jsx createElement */
-import { createElement, FC } from '../../../../JSX';
+import { createElement, FC } from 'panda-jsx';
 import styles from './styles.module.css';
 
 const SOURCE_URL = 'https://github.com/AdorableRedPanda/resume';

@@ -1,4 +1,4 @@
-import { createElement, FC } from '../../../../../../../../JSX';
+import { createElement, FC } from 'panda-jsx';
 import { ItemComponentProps } from '../types';
 import styles from '../styles.module.css';
 /** @jsx createElement */

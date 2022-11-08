@@ -1,8 +1,8 @@
-import { render } from './Render';
 import { App } from './App';
 
 /** @jsx createElement */
-import { createElement } from './JSX';
+import { createElement, render } from 'panda-jsx';
 
 const $root = document.getElementById('root');
+
 render(<App />, $root);

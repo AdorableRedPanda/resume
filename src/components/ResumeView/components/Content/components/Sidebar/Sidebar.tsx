@@ -1,5 +1,5 @@
 import styles from '../styles.module.css';
-import { createElement, FC } from '../../../../../../JSX';
+import { createElement, FC } from 'panda-jsx';
 import { SideInfo } from '../../../../../../types';
 import { ContactItem, ListSection, SocialItem, LanguageItem, SkillItem } from './ListSection';
 /** @jsx createElement */
