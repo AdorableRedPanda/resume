@@ -1,0 +1,28 @@
+.section {
+    width: 100%;
+
+}
+
+.columns {
+    &_1 {
+        grid-template-columns: 1fr;
+     }
+
+    &_2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.header {
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 5px;
+    text-align: center;
+    background-color: #edecf6;
+    padding: 8px 0;
+}
+
+.content {
+    padding: 0 20px;
+    display: grid;
+}

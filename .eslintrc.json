@@ -18,9 +18,13 @@
   },
   "plugins": [
     "@typescript-eslint",
+    "react",
     "import"
   ],
   "rules": {
+    "arrow-parens": ["warn", "always"],
+    "jsx-quotes": ["error", "prefer-double"],
+    "prefer-template": "error",
     "object-curly-spacing": ["error", "always"],
     "eqeqeq": "error",
     "quotes": ["error", "single"],
@@ -35,14 +39,27 @@
     "prefer-const": "error",
     "no-unneeded-ternary": "error",
     "prefer-arrow-callback": "error",
-    "prefer-template": "error",
-    "no-useless-concat": "error",
     "arrow-body-style": "warn",
     "semi": ["error", "always"],
     "comma-spacing": "error",
+    "indent": ["error", "tab"],
     "@typescript-eslint/no-unused-vars": "warn",
     "@typescript-eslint/prefer-includes": "error",
     "@typescript-eslint/no-explicit-any": "error",
-    "import/no-default-export": "error"
+    "import/no-default-export": "error",
+    "quote-props": ["error", "as-needed"],
+    "react/jsx-space-before-closing": "error",
+    "react/jsx-closing-bracket-location": "error",
+    "react/jsx-wrap-multilines": [
+      "error",
+      { "declaration": "parens", "arrow": "parens-new-line", "condition": "parens", "return": "parens-new-line" }
+    ],
+    "react/jsx-props-no-multi-spaces": "error",
+    "react/jsx-props-no-spreading": "error",
+    "react/jsx-indent": ["error", "tab"],
+    "react/jsx-boolean-value": ["error", "never"],
+    "react/jsx-one-expression-per-line": ["error", { "allow": "single-child" }],
+    "react/jsx-curly-brace-presence": ["error", "never"],
+    "max-len": ["error", { "code": 120 }]
   }
 }

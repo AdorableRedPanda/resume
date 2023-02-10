@@ -1,4 +1,4 @@
-import { App } from './App';
+import { App } from './components/App';
 
 /** @jsx createElement */
 import { createElement, render } from 'panda-jsx';

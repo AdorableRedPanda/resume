@@ -3,7 +3,7 @@
 }
 
 .list_item {
-    margin: 0 0 4px 10px;
+    margin-left: 10px;
     display: list-item;
     list-style-position: inside;
 }
