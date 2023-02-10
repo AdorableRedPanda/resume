@@ -7,23 +7,22 @@
   "homepage": "https://adorableredpanda.github.io/resume_jsx/",
   "scripts": {
     "build": "vite build -c config/vite.js",
-    "start": "vite -c config/vite.js",
-    "deploy": "npm run build && gh-pages -d dist"
+    "start": "vite -c config/vite.js"
   },
   "author": "Konstantin Gotin<gktin@yandex.ru>",
   "license": "ISC",
-  "tocken": "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",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.42.0",
-    "@typescript-eslint/parser": "5.42.0",
+    "@typescript-eslint/eslint-plugin": "5.45.0",
+    "@typescript-eslint/parser": "5.45.0",
     "typescript-plugin-css-modules": "3.4.0",
-    "eslint": "8.26.0",
+    "eslint": "8.28.0",
     "eslint-plugin-import": "2.26.0",
-    "typescript": "4.8.4",
-    "gh-pages": "4.0.0",
-    "panda-jsx": "0.1.1"
+    "eslint-plugin-react": "7.31.11",
+    "typescript": "4.9.3"
+
   },
   "dependencies": {
-    "vite": "3.2.2"
+    "panda-jsx": "0.1.3",
+    "vite": "3.2.4"
   }
 }

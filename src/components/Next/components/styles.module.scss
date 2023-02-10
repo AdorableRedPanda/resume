@@ -1,0 +1,58 @@
+.header {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  align-items: end;
+}
+
+.contacts {
+  padding: 10px;
+}
+
+.name {
+  text-transform: uppercase;
+}
+
+.link {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  padding: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 20px;
+}
+
+.skill {
+  color: black;
+  padding: 5px 10px;
+  width: fit-content;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.skills {
+  padding: 0;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.profile {
+  padding: 0 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}

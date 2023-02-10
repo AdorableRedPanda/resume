@@ -13,31 +13,23 @@ export interface Resume {
     profile: Profile;
     workExperience: Experience;
     education: Experience;
-    footerCaption: string;
-    sideInfo: SideInfo;
+    skills: string[];
+    contacts: ContactLink[];
 }
 
-export interface SideInfo {
-    skills: SideInfoList;
-    languages: SideInfoList;
-    socialLinks: SideInfoList;
-    contacts: SideInfoList;
-}
 
 export interface ExperienceItem {
     position: ExperiencePositionInfo;
-    city: string;
-    dateFrom: string;
-    dateUntil: string;
+    dates: [from: string, to: string];
     details: StyledLine[];
 }
 type ExperiencePositionInfo = [string, string]
 
 export type Experience = Labeled<ExperienceItem[]>;
 
-export type SideInfoList = Labeled<ListItem[]>;
+export type ListItem = [string, string?];
 
-export type ListItem = [string, string?]
+export type ContactLink = [icon: string, href: string, label: string];
 
 export type StyledLine = [string, LineStyle?];
 
