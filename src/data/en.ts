@@ -42,8 +42,8 @@ export const en: Resume = {
 					['Document management system with complex interface', 'li'],
 					['Achievements:', 'bold'],
 					['Webpack config refactoring - reduce bundle size x5, reduce build time x2', 'li'],
-					[`Rework store architecture - this allowed to completely remove code duplication in storage usages,
-                     increase performance in feature realizations`, 'li'],
+					[`Rework store architecture - realized DI and encapsulation principles, completely remove code 
+					duplication in storage usages, increase performance in feature realizations`, 'li'],
 				],
 			},
 			{
