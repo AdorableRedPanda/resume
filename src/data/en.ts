@@ -33,7 +33,7 @@ export const en: Resume = {
                 ['teaching experience', 'li'],
                 ['some full-stack experience', 'li'],
                 [
-                    `I like to develop high-level APIs and components, which in turn are used to implement business 
+                    `I like to develop low-level APIs and components, which in turn are used to implement business 
                     functions, so I'm looking for a project with a complex interesting frontend and a strong team.
                     Open to relocation.`,
                 ],
