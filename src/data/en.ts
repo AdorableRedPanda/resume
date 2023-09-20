@@ -49,7 +49,7 @@ export const en: Resume = {
                 position: ['Frontend developer', 'TecForce'],
                 city: 'Samara, remote',
                 dateFrom: 'Aug 2021',
-                dateUntil: 'now',
+                dateUntil: 'Feb 2023',
                 details: [
                     ['TS, React, Redux, Redux-Saga, Redux Toolkit, Webpack, Jest, React Testing Library'],
                     ['Projects:', 'bold'],
