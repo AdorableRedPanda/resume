@@ -7,8 +7,7 @@
   "homepage": "https://adorableredpanda.github.io/resume_jsx/",
   "scripts": {
     "build": "vite build -c config/vite.js",
-    "start": "vite -c config/vite.js",
-    "deploy": "npm run build && gh-pages -d dist"
+    "start": "vite -c config/vite.js"
   },
   "author": "Konstantin Gotin<gktin@yandex.ru>",
   "license": "ISC",
