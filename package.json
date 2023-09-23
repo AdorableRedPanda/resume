@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Simple static resume",
   "main": "index.js",
-  "repository": "https://github.com/AdorableRedPanda/resume_jsx",
-  "homepage": "https://adorableredpanda.github.io/resume_jsx/",
+  "repository": "https://github.com/AdorableRedPanda/resume",
+  "homepage": "https://adorableredpanda.github.io/resume",
   "scripts": {
     "build": "vite build -c config/vite.js",
     "start": "vite -c config/vite.js"
