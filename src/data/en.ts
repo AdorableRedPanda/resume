@@ -33,6 +33,17 @@ export const en: Resume = {
 		label: 'Work experience',
 		value: [
 			{
+				position: ['Frontend developer', 'Yandex'],
+				dates: ['Jun 2023', 'now'],
+				details: [
+					['TS, React, Redux, PWA, Webpack, Jest, Post messages'],
+					['Yandex Games', 'bold'],
+					['Partners integrations', 'li'],
+					['Working on code review process', 'li'],
+					['Working on architecture issues', 'li'],
+				],
+			},
+			{
 				position: ['Frontend developer', 'TecForce'],
 				dates: ['Aug 2021', 'Feb 2023'],
 				details: [
