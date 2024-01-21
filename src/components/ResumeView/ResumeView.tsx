@@ -7,10 +7,10 @@ import styles from './styles.module.scss';
 
 
 interface Props {
-	resume: Resume;
+	data: Resume;
 }
 
-export const ResumeView: FC<Props> = ({ resume: { contacts, education, profile, skills, workExperience } }) => (
+export const ResumeView: FC<Props> = ({ data: { contacts, education, profile, skills, workExperience } }) => (
 	<div className={styles.page}>
 		<Header profile={profile} skills={skills} />
 		<Contacts links={contacts} />

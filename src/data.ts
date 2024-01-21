@@ -1,6 +1,6 @@
 import { Resume } from 'src/types';
 
-export const resume: Resume = {
+export const en: Resume = {
 
 	contacts: [
 		[ 'fa-regular fa-paper-plane fa-xl', 'https://t.me/ksgotin', 'ksgotin' ],
