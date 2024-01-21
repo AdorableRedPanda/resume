@@ -20,7 +20,13 @@ export const ExperienceItem: FC<Props> = ({ item: { dates: [ from, to ], details
 			</div>
 			<div className={styles.dates}>{period}</div>
 			<div className={styles.details}>
-				{details.map((line) => <LineComponent line={line} />)}
+				<ul className={styles.contents}>
+					{details.map((line) => (
+						<li className={styles.contents}>
+							<LineComponent line={line} />
+						</li>
+					))}
+				</ul>
 			</div>
 		</div>
 	);

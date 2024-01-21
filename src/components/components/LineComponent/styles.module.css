@@ -8,6 +8,10 @@
     list-style-position: inside;
 }
 
+.list_item::marker {
+    list-style-type: disc;
+}
+
 .bold {
     margin: 5px 0;
     font-weight: bold;
