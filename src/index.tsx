@@ -1,7 +1,7 @@
 /** @jsx createElement */
 import { createElement, render } from 'panda-jsx';
 
-import { ResumeView } from './ResumeView';
+import { ResumeView } from './components';
 import { resume } from './data';
 
 const $root = document.getElementById('root');

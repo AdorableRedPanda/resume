@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 
 
 interface LineProps {
-	line: StyledLine;
+	value: StyledLine;
 }
 
 type SpecSubstring = [string, string];
@@ -19,9 +19,9 @@ const processSpecSymbols =
     (rawLine: string) => replacements
     	.reduce((prev, [ target, value ]) => prev.replace(target, value), rawLine);
 
-export const LineComponent: FC<LineProps> = ({ line }) => {
-	const [ value, style = 'none' ] = line;
-	const processed = processSpecSymbols(value);
+export const LineComponent: FC<LineProps> = ({ value }) => {
+	const [ lineValue, style = 'none' ] = value;
+	const processed = processSpecSymbols(lineValue);
 	switch (style) {
 		case 'bold':
 			return <p className={styles.bold}>{processed}</p>;

@@ -47,7 +47,7 @@ export const resume: Resume = {
 		position: 'Frontend developer',
 	},
 
-	skills: [ 'React', 'Redux', 'JS', 'TS', 'HTML', 'CSS', 'Webpack' ],
+	skills: [ 'React', 'Redux', 'JS/TS', 'HTML', 'CSS/SCSS', 'Webpack/Vite' ],
 
 	workExperience: { label: 'Work experience',
 		value: [

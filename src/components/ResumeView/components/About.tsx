@@ -3,6 +3,7 @@ import { FC, createElement } from 'panda-jsx';
 import { Labeled, StyledLine } from 'src/types';
 
 import { LineComponent } from './LineComponent';
+import { List } from './List';
 import { Section } from './Section';
 
 interface Props {
@@ -11,6 +12,6 @@ interface Props {
 
 export const About: FC<Props> = ({ about: { label, value } }) => (
 	<Section label={label}>
-		{value.map((item) => <LineComponent line={item} />)}
+		<List component={LineComponent} items={value} />
 	</Section>
 );

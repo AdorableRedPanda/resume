@@ -22,12 +22,27 @@
 
 .links {
   padding: 10px;
-  list-style: none;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
   gap: 20px;
+}
+
+.profile {
+  padding: 0 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 
 .skill {
@@ -41,22 +56,6 @@
 .skills {
   padding: 0;
   width: 100%;
-  list-style: none;
   display: flex;
-  gap: 10px;
   justify-content: center;
-}
-
-.profile {
-  padding: 0 20px;
-}
-
-.link {
-  text-decoration: none;
-  color: black;
-  display: flex;
-}
-
-.content {
-  display: contents;
 }

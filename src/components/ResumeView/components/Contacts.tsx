@@ -2,6 +2,7 @@
 import { FC, createElement } from 'panda-jsx';
 import { ContactLink as ContactData } from 'src/types';
 
+import { List } from './List';
 import styles from './styles.module.scss';
 
 interface Props {
@@ -9,22 +10,18 @@ interface Props {
 }
 
 interface LinkProps {
-	link: ContactData;
+	value: ContactData;
 }
 
-const ContactLink: FC<LinkProps> = ({ link: [ icon, href, label ] }) => (
-	<li>
-		<a className={styles.link} href={href} target="_blank">
-			<i className={icon}></i>
-			<span>{label}</span>
-		</a>
-	</li>
+const ContactLink: FC<LinkProps> = ({ value: [ icon, href, label ] }) => (
+	<a className={styles.link} href={href} target="_blank">
+		<i className={icon}></i>
+		<span>{label}</span>
+	</a>
 );
 
 export const Contacts: FC<Props> = ({ links }) => (
 	<section>
-		<ul className={styles.links}>
-			{links.map((link) => <ContactLink link={link} />)}
-		</ul>
+		<List className={styles.links} component={ContactLink} items={links} />
 	</section>
 );
