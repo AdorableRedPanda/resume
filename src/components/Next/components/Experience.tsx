@@ -14,7 +14,7 @@ export const Experience: FC<Props> = ({ columns, experience: { label, value } })
 	<Section columns={columns} label={label}>
 		<ul className={styles.content}>
 			{value.map((item) => (
-				<li>
+				<li className={styles.content}>
 					<ExperienceItem item={item} />
 				</li>
 			))}

@@ -12,7 +12,7 @@ export const ExperienceItem: FC<Props> = ({ item: { dates: [from, to], position,
 	const period = `${from} – ${to}`.toLowerCase();
 	const title = position.join(', ');
 	return (
-		<div className={styles.experience}>
+		<div>
 			<div className={styles.header}>
 				<span className={styles.title}>{title}</span>
 			</div>
