@@ -6,9 +6,6 @@
     margin-left: 10px;
     display: list-item;
     list-style-position: inside;
-}
-
-.list_item::marker {
     list-style-type: disc;
 }
 
