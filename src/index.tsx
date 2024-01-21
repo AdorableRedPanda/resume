@@ -1,8 +1,10 @@
-import { App } from './components/App';
-
 /** @jsx createElement */
 import { createElement, render } from 'panda-jsx';
 
+import { ResumeView } from './components';
+import { resume } from './data';
+
 const $root = document.getElementById('root');
 
-render(<App />, $root);
+render(<ResumeView resume={resume} />, $root);
+
