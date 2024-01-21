@@ -4,10 +4,10 @@ import styles from './styles.module.scss';
 
 interface Props {
     label: string;
-	columns?: 1 | 2;
+	columns: 1 | 2;
 }
 
-export const Section: FC<Props> = ({ label, columns = 1, children }) => {
+export const Section: FC<Props> = ({ label, columns, children }) => {
 	const classes = `${styles.content} ${styles[`columns_${columns}`]}`;
 
 	return (

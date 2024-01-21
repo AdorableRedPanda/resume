@@ -17,7 +17,7 @@ export const Next: FC<Props> = ({ resume: { profile, skills, contacts, workExper
 		<Header profile={profile} skills={skills} />
 		<Contacts links={contacts} />
 		<About about={profile.about} />
-		<Experience experience={workExperience} />
+		<Experience columns={1} experience={workExperience} />
 		<Experience columns={2} experience={education} />
 	</div>
 );

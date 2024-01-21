@@ -34,7 +34,7 @@ export const en: Resume = {
 		value: [
 			{
 				position: ['Frontend developer', 'Yandex'],
-				dates: ['Jun 2023', 'now'],
+				dates: ['Apr 2023', 'now'],
 				details: [
 					['TS, React, Redux, PWA, Webpack, Jest, Post messages'],
 					['Yandex Games', 'bold'],
@@ -79,13 +79,8 @@ export const en: Resume = {
 				],
 			},
 			{
-				position: ['Frontend Engineer', 'True Engineering'],
-				dates: ['Nov 2019', 'Sep 2020'],
-				details: [['I worked on complex content management system for large retail network, Angular 8.']],
-			},
-			{
 				position: ['Fullstack developer', 'Axmor Software'],
-				dates: ['Jun 2019', 'Sep 2020'],
+				dates: ['Jun 2019', 'Dec 2020'],
 				details: [
 					[
 						'A full cycle of feature development - clarification of requirements, implementation of both' +
