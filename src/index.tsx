@@ -3,11 +3,11 @@ import { createElement, render } from 'panda-jsx';
 
 import { ResumeView } from './components';
 import { en } from './data';
-import { setupIcons } from './setupIcons';
+import { initIcons, initRoot } from './inits';
 
-const $root = document.getElementById('root');
+initIcons();
 
-setupIcons();
+const root = initRoot();
 
-render(<ResumeView data={en} />, $root);
+render(<ResumeView data={en} />, root);
 
