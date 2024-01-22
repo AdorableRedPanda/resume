@@ -1,5 +1,4 @@
-/** @jsx createElement */
-import { FC, createElement } from 'panda-jsx';
+import { FC } from 'panda-jsx';
 import { Resume } from 'src/types';
 
 import { About, Contacts, Experience, Header } from './components';

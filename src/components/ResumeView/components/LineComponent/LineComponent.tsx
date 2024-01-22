@@ -1,5 +1,4 @@
-/** @jsx createElement */
-import { FC, createElement } from 'panda-jsx';
+import { FC } from 'panda-jsx';
 import { StyledLine } from 'src/types';
 
 import styles from './styles.module.css';

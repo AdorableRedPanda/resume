@@ -1,5 +1,4 @@
-/** @jsx createElement */
-import { createElement, render } from 'panda-jsx';
+import { render } from 'panda-jsx';
 
 import { ResumeView } from './components';
 import { en } from './data';
