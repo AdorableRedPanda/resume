@@ -4,10 +4,9 @@ export const en: Resume = {
 
 	contacts: [
 		[ 'fa-regular fa-paper-plane fa-xl', 'https://t.me/ksgotin', 'ksgotin' ],
-		[ 'fa-brands fa-github fa-xl', 'https://github.com/AdorableRedPanda', 'AdorableRedPanda' ],
-		[ 'fa-brands fa-linkedin fa-xl', 'https://www.linkedin.com/in/kgotin/', 'kgotin' ],
 		[ 'fa-regular fa-envelope fa-xl', 'mailto:gktin@yandex.ru', 'gktin@yandex.ru' ],
-		[ 'fa-regular fa-phone fa-lg', 'tel:+374 93 117769', '+374 93 117769' ],
+		[ 'fa-brands fa-linkedin fa-xl', 'https://www.linkedin.com/in/kgotin/', 'kgotin' ],
+		[ 'fa-brands fa-github fa-xl', 'https://github.com/AdorableRedPanda', 'AdorableRedPanda' ],
 	],
 
 	education: {

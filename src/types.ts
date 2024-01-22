@@ -26,8 +26,6 @@ type ExperiencePositionInfo = [string, string];
 
 export type Experience = Labeled<ExperienceItem[]>;
 
-export type ListItem = [string, string?];
-
 export type ContactLink = [icon: string, href: string, label: string];
 
 export type StyledLine = [string, LineStyle?];
