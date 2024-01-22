@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Simple static resume",
   "main": "index.js",
+  "type": "module",
   "repository": "https://github.com/AdorableRedPanda/resume",
   "homepage": "https://adorableredpanda.github.io/resume",
   "scripts": {
