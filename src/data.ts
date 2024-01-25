@@ -59,7 +59,6 @@ export const en: Resume = {
 					[ 'Yandex Games', 'bold' ],
 					[ 'Partners integrations', 'li' ],
 					[ 'Working on code review process', 'li' ],
-					[ 'Working on architecture issues', 'li' ],
 				],
 				position: [ 'Frontend developer', 'Yandex' ],
 			},
@@ -88,12 +87,7 @@ export const en: Resume = {
 					[ 'CRM to simplify the use of our services for partners.', 'li' ],
 					[
 						`Service booking application, module that can be built as a React component in other projects, 
-                        or can be deployed independently for use in partner projects as an IFrame.`, 'li',
-					],
-					[
-						'Booking application adapter -- script for integrating the application' +
-						`with minimal partners' efforts.
-                        Implemented only by TypeScript, Webpack, Dom and Window api.`, 'li',
+                        or can be deployed independently for use in partner projects as an IFrame and adapter for it.`, 'li',
 					],
 				],
 				position: [ 'Frontend developer', 'Fit Service' ],
