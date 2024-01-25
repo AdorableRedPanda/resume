@@ -6,6 +6,7 @@ export const en: Resume = {
 		[ 'fa-regular fa-paper-plane fa-xl', 'https://t.me/ksgotin', 'ksgotin' ],
 		[ 'fa-regular fa-envelope fa-xl', 'mailto:gktin@yandex.ru', 'gktin@yandex.ru' ],
 		[ 'fa-brands fa-linkedin fa-xl', 'https://www.linkedin.com/in/kgotin/', 'kgotin' ],
+		[ 'fa-regular fa-phone fa-lg', 'tel:+374 93 117769', '+374 93 117769' ],
 		[ 'fa-brands fa-github fa-xl', 'https://github.com/AdorableRedPanda', 'AdorableRedPanda' ],
 	],
 
@@ -42,6 +43,7 @@ export const en: Resume = {
 				],
 			],
 		},
+		location: 'Dilijan, Armenia',
 		name: 'Konstantin Gotin',
 		position: 'Frontend developer',
 	},

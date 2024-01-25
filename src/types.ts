@@ -7,6 +7,7 @@ export interface Profile {
 	about: Labeled<StyledLine[]>;
 	name: string;
 	position: string;
+	location: string;
 }
 
 export interface Resume {

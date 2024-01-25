@@ -2,9 +2,8 @@ import { render } from 'panda-jsx';
 
 import { ResumeView } from './components';
 import { en } from './data';
-import { initIcons, initRoot } from './inits';
+import { initRoot } from './initRoot';
 
-initIcons();
 
 const root = initRoot();
 
