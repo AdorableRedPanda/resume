@@ -9,11 +9,11 @@ interface Props {
 }
 
 export const ResumeView: FC<Props> = ({ data: { contacts, education, profile, skills, workExperience } }) => (
-	<div className={styles.page}>
+	<main className={styles.page}>
 		<Header profile={profile} skills={skills} />
 		<Contacts links={contacts} />
 		<About about={profile.about} />
 		<Experience columns={1} experience={workExperience} />
 		<Experience columns={2} experience={education} />
-	</div>
+	</main>
 );

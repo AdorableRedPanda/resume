@@ -1,0 +1,13 @@
+.skills {
+  padding: 0;
+  width: 100%;
+  display: flex;
+
+  .skill {
+    color: black;
+    padding: 5px 10px;
+    width: fit-content;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+}

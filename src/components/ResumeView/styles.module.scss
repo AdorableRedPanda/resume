@@ -1,5 +1,6 @@
 .page {
   display: flex;
+  margin-top: 30px;
 
   flex-direction: column;
   gap: 10px;
@@ -9,7 +10,6 @@
 
   @media print {
     margin: 0;
-    padding: 0;
     border: none;
   }
 }

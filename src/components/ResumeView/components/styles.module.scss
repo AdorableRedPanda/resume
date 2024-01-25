@@ -1,25 +1,22 @@
 .header {
   padding: 20px 30px;
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
-  align-items: end;
+  display: grid;
 
-  .right {
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-  }
+  grid-template-columns: 1fr 1fr;
 
   .name {
     text-transform: uppercase;
+    font-size: var(--size-font-name);
+  }
+
+  .position {
+    font-size: var(--size-font-position);
+  }
+
+  .location {
+    font-size: var(--size-font-location);
   }
 }
-
-.contacts {
-  padding: 10px;
-}
-
 
 .links {
   padding: 10px;
@@ -36,24 +33,4 @@
     gap: 5px;
     align-items: center;
   }
-}
-
-.skills {
-  padding: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-
-  .skill {
-    color: black;
-    padding: 5px 10px;
-    width: fit-content;
-    border-radius: 10px;
-    font-weight: 600;
-
-    &:last-child {
-      padding-right: 0;
-    }
-  }
-
 }
