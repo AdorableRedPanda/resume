@@ -53,7 +53,7 @@ export const en: Resume = {
 	workExperience: { label: 'Work experience',
 		value: [
 			{
-				dates: [ 'Apr 2023', 'now' ],
+				dates: [ 'Apr 2023', 'Jan 2024' ],
 				details: [
 					[ 'TS, React, Redux, PWA, Webpack, Jest, Post messages' ],
 					[ 'Yandex Games', 'bold' ],
