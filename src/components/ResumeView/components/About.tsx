@@ -1,5 +1,5 @@
-import { FC } from 'panda-jsx';
-import { Labeled, StyledLine } from 'src/types';
+import type { FC } from 'panda-jsx';
+import type { Labeled, StyledLine } from 'src/types';
 
 import { LineComponent } from './LineComponent';
 import { List } from './List';

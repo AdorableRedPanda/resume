@@ -1,4 +1,4 @@
-import { FC } from 'panda-jsx';
+import type { FC } from 'panda-jsx';
 
 import styles from './styles.module.scss';
 

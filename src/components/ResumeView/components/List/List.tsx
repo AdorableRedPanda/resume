@@ -1,4 +1,4 @@
-import { FC } from 'panda-jsx';
+import type { FC } from 'panda-jsx';
 
 import styles from './styles.module.scss';
 
@@ -11,12 +11,20 @@ interface Props<TItem> {
 	items: TItem[];
 }
 
-export function List<TItem> ({ className = '', component: Component, items }: Props<TItem>) {
+export function List<TItem>({
+	className = '',
+	component: Component,
+	items,
+}: Props<TItem>) {
 	const classes = `${className} ${styles.list}`;
 
 	return (
 		<ul className={classes}>
-			{items.map((i) => <li><Component value={i}/></li>)}
+			{items.map((i) => (
+				<li>
+					<Component value={i} />
+				</li>
+			))}
 		</ul>
 	);
 }

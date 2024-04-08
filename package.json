@@ -8,16 +8,13 @@
   "homepage": "https://adorableredpanda.github.io/resume",
   "scripts": {
     "build": "vite build",
-    "start": "vite"
+    "start": "vite",
+    "lint": "biome format --write ./src && biome lint --apply ./src"
   },
   "author": "Konstantin Gotin<gktin@yandex.ru>",
   "license": "ISC",
   "devDependencies": {
-    "@stylistic/eslint-plugin": "1.5.1",
-    "@typescript-eslint/eslint-plugin": "5.62.0",
-    "@typescript-eslint/parser": "5.62.0",
-    "eslint": "8.56.0",
-    "eslint-plugin-perfectionist": "2.5.0",
+    "@biomejs/biome": "1.6.4",
     "typescript": "5.3.3",
     "typescript-plugin-css-modules": "5.0.2"
   },

@@ -1,5 +1,5 @@
-import { FC } from 'panda-jsx';
-import { Experience as ExperienceData } from 'src/types';
+import type { FC } from 'panda-jsx';
+import type { Experience as ExperienceData } from 'src/types';
 
 import { List } from '../List';
 import { Section } from '../Section';
@@ -10,7 +10,10 @@ interface Props {
 	experience: ExperienceData;
 }
 
-export const Experience: FC<Props> = ({ columns, experience: { label, value } }) => (
+export const Experience: FC<Props> = ({
+	columns,
+	experience: { label, value },
+}) => (
 	<Section columns={columns} label={label}>
 		<List component={ExperienceItem} items={value} />
 	</Section>

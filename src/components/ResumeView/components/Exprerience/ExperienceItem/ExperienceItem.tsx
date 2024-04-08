@@ -1,5 +1,5 @@
-import { FC } from 'panda-jsx';
-import { ExperienceItem as ExperienceData } from 'src/types';
+import type { FC } from 'panda-jsx';
+import type { ExperienceItem as ExperienceData } from 'src/types';
 
 import { LineComponent } from '../../LineComponent';
 import { List } from '../../List';
@@ -9,7 +9,13 @@ interface Props {
 	value: ExperienceData;
 }
 
-export const ExperienceItem: FC<Props> = ({ value: { dates: [ from, to ], details, position } }) => {
+export const ExperienceItem: FC<Props> = ({
+	value: {
+		dates: [from, to],
+		details,
+		position,
+	},
+}) => {
 	const period = `${from} – ${to}`.toLowerCase();
 	const title = position.join(', ');
 
