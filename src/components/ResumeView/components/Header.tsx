@@ -1,17 +1,17 @@
 import type { FC } from 'panda-jsx';
-import type { Profile } from 'src/types';
+import type { ContactLink as ContactData, Profile } from 'src/types';
 
 import styles from './styles.module.scss';
-import { Skills } from './Skills/Skills';
+import { Contacts } from './Contacts';
 
 interface Props {
 	profile: Profile;
-	skills: string[];
+	links: ContactData[];
 }
 
 export const Header: FC<Props> = ({
+	links,
 	profile: { name, position, location },
-	skills,
 }) => (
 	<header className={styles.header}>
 		<div>
@@ -19,6 +19,6 @@ export const Header: FC<Props> = ({
 			<h2 className={styles.position}>{position}</h2>
 			<address className={styles.location}>{location}</address>
 		</div>
-		<Skills skills={skills} />
+		<Contacts links={links} />
 	</header>
 );

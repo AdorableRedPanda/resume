@@ -40,13 +40,10 @@ export const en: Resume = {
 		about: {
 			label: 'About me',
 			value: [
-				['strong math background', 'li'],
-				['teaching experience', 'li'],
-				['some full-stack experience', 'li'],
 				[
-					`I like to develop low-level APIs and components, which in turn are used to implement business 
-                    functions, so I'm looking for a project with a complex interesting frontend and a strong team.
-                    Open to relocation.`,
+					`I like to develop low-level APIs and components, which in turn are used to 
+					implement business functions, so I'm looking for a project with a complex interesting frontend and 
+					a strong team. I have strong math background.`,
 				],
 			],
 		},
@@ -55,7 +52,20 @@ export const en: Resume = {
 		position: 'Frontend developer',
 	},
 
-	skills: ['React', 'Redux', 'JS/TS', 'HTML', 'CSS/SCSS', 'Webpack/Vite'],
+	skills: [
+		'JS/TS',
+		'HTML',
+		'CSS/SCSS',
+		'React',
+		'Redux',
+		'Webpack',
+		'Vite',
+		'Redux-Saga',
+		'Jest',
+		'React Testing Library',
+		'GraphQL',
+		'Formik',
+	],
 
 	workExperience: {
 		label: 'Work experience',
@@ -99,7 +109,7 @@ export const en: Resume = {
 				dates: ['Dec 2020', 'Jun 2021'],
 				details: [
 					[
-						'TypeScript, React, Styled Components, GraphQL, ApolloClient,' +
+						'TypeScript, React, Styled Components, GraphQL, ApolloClient, ' +
 							'MemoryRouter, ReactRouter, Formik, Webpack.',
 					],
 					['Projects:', 'bold'],
@@ -136,25 +146,19 @@ export const en: Resume = {
 				position: ['Fullstack developer', 'Axmor Software'],
 			},
 			{
-				dates: ['Sep 2016', 'Jun 2020'],
-				details: [
-					[
-						'Higher College of Informatics of NSU -- algebra, geometry and discrete mathematics',
-						'li',
-					],
-					[
-						'Department of Mechanics and Mathematics of NSU -- differential geometry',
-						'li',
-					],
-				],
-				position: ['Teacher', 'Novosibirsk State University'],
-			},
-			{
 				dates: ['Sep  2016', 'Jun 2019'],
 				details: [
 					['research in mathematics', 'li'],
 					['writing scientific articles', 'li'],
 					['participation in conferences', 'li'],
+					[
+						'teaching in Higher College of Informatics of NSU -- algebra, geometry and discrete mathematics',
+						'li',
+					],
+					[
+						'teaching in Department of Mechanics and Mathematics of NSU -- differential geometry',
+						'li',
+					],
 					[
 						`I have a solo publication in Q2 math journal -- 
                         https://www.worldscientific.com/doi/10.1142/S0218216517420020`,

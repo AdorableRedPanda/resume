@@ -2,7 +2,7 @@
   padding: 20px 30px;
   display: grid;
 
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 4fr;
 
   .name {
     text-transform: uppercase;
@@ -20,9 +20,8 @@
 
 .links {
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
   gap: 20px;
 
@@ -30,7 +29,7 @@
     text-decoration: none;
     color: black;
     display: flex;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
   }
 }
