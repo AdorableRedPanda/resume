@@ -43,7 +43,7 @@ export const en: Resume = {
 				[
 					`I like to develop low-level APIs and components, which in turn are used to 
 					implement business functions, so I'm looking for a project with a complex interesting frontend and 
-					a strong team. I have strong math background.`,
+					a strong team. I always strive to select technologies based on the project's requirements and constraints.`,
 				],
 			],
 		},
@@ -70,6 +70,20 @@ export const en: Resume = {
 	workExperience: {
 		label: 'Work experience',
 		value: [
+			{
+				dates: ['Feb 2024', 'Apr 2024'],
+				details: [
+					['TS, React, Vite, React-dnd, Primereact, Svelte'],
+					[
+						'Project work. The client, who developed the backend himself, hired me to build a user-friendly ' +
+							'interface for his system to connect partners. I quickly developed an MVP to enable partner ' +
+							'integration, planned for future development, created a custom UI kit based on Primereact for ' +
+							'faster development and design consistency, supported interface customization for different ' +
+							'partners, and wrote an optimized booking module in Svelte for VR club clients.',
+					],
+				],
+				position: ['Frontend developer', 'VR clubs franchise, project work'],
+			},
 			{
 				dates: ['Apr 2023', 'Jan 2024'],
 				details: [
