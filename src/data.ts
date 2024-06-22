@@ -49,7 +49,7 @@ export const en: Resume = {
 		},
 		location: 'Dilijan, Armenia',
 		name: 'Konstantin Gotin',
-		position: 'Frontend developer',
+		position: 'Senior Frontend Developer',
 	},
 
 	skills: [
