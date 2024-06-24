@@ -71,18 +71,18 @@ export const en: Resume = {
 		label: 'Work experience',
 		value: [
 			{
-				dates: ['Feb 2024', 'Apr 2024'],
+				dates: ['Feb 2024', 'Jun 2024'],
 				details: [
 					['TS, React, Vite, React-dnd, Primereact, Svelte'],
 					[
-						'Project work. The client, who developed the backend himself, hired me to build a user-friendly ' +
+						'The client, who developed the backend himself, hired me to build a user-friendly ' +
 							'interface for his system to connect partners. I quickly developed an MVP to enable partner ' +
 							'integration, planned for future development, created a custom UI kit based on Primereact for ' +
 							'faster development and design consistency, supported interface customization for different ' +
 							'partners, and wrote an optimized booking module in Svelte for VR club clients.',
 					],
 				],
-				position: ['Frontend developer', 'VR clubs franchise, project work'],
+				position: ['Frontend developer', 'VR clubs franchise, project work (finished)'],
 			},
 			{
 				dates: ['Apr 2023', 'Jan 2024'],
